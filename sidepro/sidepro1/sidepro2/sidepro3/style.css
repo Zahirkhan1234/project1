@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+}
+
+/* 
+ .container{
+    border:2px solid red;
+    width:50%;
+    height:500px;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid red;
+}  */
+
+.task-bar-cover{
+    background-color: white;
+    width:60%;
+    display:flex;
+    padding:1rem;
+    border-radius:5px;
+    /* border:2px solid red; */
+
+}
+
+.task-bar-cover input{
+    padding:.8em;
+    border-radius:4px;
+    margin-right:.4rem;
+    flex:5;
+    font-size: 1rem;
+}
+
+.buttons{
+    flex:.4;
+    padding:.3rem;
+    margin-right:.4rem;
+    border-radius:4px;
+}
+
+.buttons:hover{
+    background-color: green;
+    color:white;
+}
+
+.task{
+    width:100%;
+    border:2px solid red;
+    color:white;
+}
+
+.list{
+  list-style:none;
+}
